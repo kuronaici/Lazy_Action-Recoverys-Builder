@@ -19,7 +19,7 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
         required: true
-        default: 'https://gitlab.com/kuromeXz/android_device_samsung_a71.git'
+        default: 'https://github.com/kuronaici/android_device_samsung_a71.git'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch'
         required: true
