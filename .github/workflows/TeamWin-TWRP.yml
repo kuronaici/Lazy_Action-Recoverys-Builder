@@ -6,7 +6,7 @@ on:
       MANIFEST_BRANCH:
         description: 'TWRP Manifest Branch'
         required: true
-        default: 'twrp-12.1'
+        default: 'twrp-11'
         type: choice
         options:
         - twrp-12.1
@@ -26,7 +26,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
-        default: 'a71naxx-user-11-RP1A.200720.012-A715FXXUADWJ2-release-keys'
+        default: 'a71_11'
       DEVICE_PATH:
         description: 'Specify your Device Path' # As is, just like your DEVICE_PATH in your BoardConfig.mk
         required: true
@@ -46,7 +46,7 @@ on:
         - vendorboot
       LDCHECK:
         description: 'Use LDCHECK'
-        required: false
+        required: true
         default: 'false'
         type: boolean
       LDCHECKPATH:
