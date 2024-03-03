@@ -22,11 +22,11 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/samsung/a71.git'
+        default: 'https://github.com/kuronaici/android_samsung_a714g.git'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
-        default: 'a71naxx-user-11-RP1A.200720.012-A715FXXU3BUB5-release-keys'
+        default: 'a715f_12'
       DEVICE_PATH:
         description: 'Specify your Device Path' # As is, just like your DEVICE_PATH in your BoardConfig.mk
         required: true
@@ -47,7 +47,7 @@ on:
       LDCHECK:
         description: 'Use LDCHECK'
         required: true
-        default: 'false'
+        default: 'true'
         type: boolean
       LDCHECKPATH:
         description: 'Path of blobs to check' # Use it know what kind of dependencies your missing for decryption blobs.
