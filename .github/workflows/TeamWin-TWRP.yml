@@ -6,7 +6,7 @@ on:
       MANIFEST_BRANCH:
         description: 'TWRP Manifest Branch'
         required: true
-        default: 'twrp-11'
+        default: 'twrp-12.1'
         type: choice
         options:
         - twrp-12.1
